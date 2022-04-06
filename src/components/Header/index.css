@@ -1,0 +1,69 @@
+.desktop-header-elements {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  padding: 5px;
+  box-shadow: 0 2 2 0;
+  height: 10vh;
+}
+@media screen and (max-width: 768px) {
+  .desktop-header-elements {
+    display: none;
+  }
+}
+
+.logout-button {
+  background-color: blue;
+  padding: 5px 10px 5px 10px;
+  width: 80px;
+  margin: 10px;
+  color: white;
+  border: none;
+}
+.list-element-header-container {
+  list-style-type: none;
+  display: flex;
+}
+.list-element {
+  margin-right: 10px;
+  color: white;
+}
+.link-element {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  padding: 5px;
+  box-shadow: 0 2 2 0;
+  height: 15vh;
+}
+@media screen and (min-width: 769px) {
+  .mobile-header {
+    display: none;
+  }
+}
+
+.logo-container-for-mobile {
+  display: flex;
+  align-items: center;
+}
+.right-mobile-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logout-icon {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+}
+.logo-for-mobile {
+  width: 60%;
+  align-self: center;
+}
